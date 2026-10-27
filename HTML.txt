@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nesta Vibe - মাইক্রোফাইবার হেয়ার টাওয়েল</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts (Bangla Support) -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: #fcfcfc;
+            color: #111111;
+        }
+        .accent-orange {
+            background-color: #ff6600;
+        }
+    </style>
+</head>
+<body class="bg-white text-black antialiased pb-24">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 px-4 py-3 shadow-sm">
+        <div class="max-w-md mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="bg-black text-white font-bold px-3 py-1 rounded-lg text-lg tracking-wider">NV</div>
+                <span class="font-bold text-xl tracking-tight">Nesta Vibe</span>
+            </div>
+            <a href="#order-form" class="accent-orange text-white text-sm font-semibold px-4 py-2 rounded-full shadow-md active:scale-95 transition">অর্ডার করুন</a>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-md mx-auto px-4 pt-4 space-y-6">
+        
+        <!-- Product Hero Section -->
+        <div class="bg-amber-50/50 border-2 border-black rounded-3xl p-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] relative overflow-hidden">
+            <div class="absolute top-3 right-3 accent-orange text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                বেস্টসেলার অফার
+            </div>
+            
+            <!-- Main Hero Image (Exact Hair Towel from your upload) -->
+            <div class="w-full h-80 bg-white border-2 border-black rounded-2xl overflow-hidden shadow-inner mb-4">
+                <img src="https://i.ibb.co.com/6R4Z97jX/1000525735-2.png" alt="Hair Towel Main" class="w-full h-full object-cover">
+            </div>
+
+            <div class="inline-block bg-white border border-gray-200 text-xs font-semibold px-3 py-1 rounded-full text-gray-700 mb-2">
+                ✨ সুপার অ্যাবজর্বেন্ট মাইক্রোফাইবার
+            </div>
+            <h1 class="text-2xl font-bold leading-snug mb-2">
+                মাত্র ৫ মিনিটেই চুল শুকান ঝুটঝামেলাহীনভাবে!
+            </h1>
+            <p class="text-gray-600 text-sm mb-4">
+                চুল ভাঙা রোধ করুন এবং দ্রুত পানি শুষে নিন। নরম স্পর্শে সুস্থ দিনের শুরু।
+            </p>
+
+            <!-- Product Specs -->
+            <div class="grid grid-cols-2 gap-2 bg-white p-3 rounded-xl border border-gray-100 text-xs font-medium">
+                <div class="flex items-center space-x-2">
+                    <span class="text-orange-500 font-bold">✔</span>
+                    <span>ম্যাটেরিয়ালস: মাইক্রোফাইবার</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <span class="text-orange-500 font-bold">✔</span>
+                    <span>লেংথ: ২৫.৫ ইঞ্চি</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Available Colors Showcase (Your exact color images) -->
+        <div class="bg-white border-2 border-black rounded-3xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+            <h3 class="text-lg font-bold mb-3">আমাদের উপলব্ধ কালার ও কালেকশন</h3>
+            <p class="text-xs text-gray-500 mb-4">নিচে আমাদের হেয়ার টাওয়েলগুলোর আসল কালার কম্বিনেশন দেখানো হলো:</p>
+            <div class="grid grid-cols-2 gap-3">
+                <div class="border-2 border-gray-200 rounded-2xl p-2 text-center bg-gray-50">
+                    <img src="https://i.ibb.co.com/1G66p2S7/1000525728.png" class="w-full h-32 object-cover rounded-xl mb-2" alt="Pink & Blue">
+                    <span class="text-xs font-bold text-gray-800">পিংক ও ব্লু কম্বো</span>
+                </div>
+                <div class="border-2 border-gray-200 rounded-2xl p-2 text-center bg-gray-50">
+                    <img src="https://i.ibb.co.com/MkfFwtp/1000525753.jpg" class="w-full h-32 object-cover rounded-xl mb-2" alt="4 Colors">
+                    <span class="text-xs font-bold text-gray-800">৪ কালার কালেকশন</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tiered Pricing Section -->
+        <div class="bg-white border-2 border-black rounded-3xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+            <h3 class="text-lg font-bold mb-3 flex items-center justify-between">
+                <span>প্যাকেজ ও মূল্য তালিকা</span>
+                <span class="text-xs font-normal bg-orange-100 text-orange-700 px-2.5 py-1 rounded-full">বেস্ট সেভিং</span>
+            </h3>
+            <div class="space-y-3">
+                <label class="flex items-center justify-between p-3 border-2 border-gray-200 rounded-xl cursor-pointer hover:border-orange-500 transition">
+                    <div class="flex items-center space-x-3">
+                        <input type="radio" name="pkg" value="1" class="w-4 h-4 text-orange-600" onclick="setPackage(1, 249)">
+                        <span class="font-semibold text-sm">১ পিস টাওয়েল</span>
+                    </div>
+                    <span class="font-bold text-orange-600 text-base">২৪৯ ৳</span>
+                </label>
+                <label class="flex items-center justify-between p-3 border-2 border-gray-200 rounded-xl cursor-pointer hover:border-orange-500 transition">
+                    <div class="flex items-center space-x-3">
+                        <input type="radio" name="pkg" value="2" class="w-4 h-4 text-orange-600" onclick="setPackage(2, 469)">
+                        <span class="font-semibold text-sm">২ পিস টাওয়েল</span>
+                    </div>
+                    <span class="font-bold text-orange-600 text-base">৪৬৯ ৳</span>
+                </label>
+                <label class="flex items-center justify-between p-3 border-2 border-gray-200 rounded-xl cursor-pointer hover:border-orange-500 transition">
+                    <div class="flex items-center space-x-3">
+                        <input type="radio" name="pkg" value="3" class="w-4 h-4 text-orange-600" onclick="setPackage(3, 689)">
+                        <span class="font-semibold text-sm">৩ পিস টাওয়েল</span>
+                    </div>
+                    <span class="font-bold text-orange-600 text-base">৬৮৯ ৳</span>
+                </label>
+                <label class="flex items-center justify-between p-3 border-2 border-orange-500 bg-orange-50/30 rounded-xl cursor-pointer transition">
+                    <div class="flex items-center space-x-3">
+                        <input type="radio" name="pkg" value="4" class="w-4 h-4 text-orange-600" checked onclick="setPackage(4, 899)">
+                        <div>
+                            <span class="font-bold text-sm block">৪ পিস টাওয়েল</span>
+                            <span class="text-[11px] text-orange-600 font-bold">🎉 ফ্রি ডেলিভারি অফার!</span>
+                        </div>
+                    </div>
+                    <span class="font-bold text-orange-600 text-base">৮৯৯ ৳</span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Order Form Section -->
+        <div id="order-form" class="bg-white border-2 border-black rounded-3xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+            <h3 class="text-xl font-bold mb-1">অর্ডার করতে তথ্য দিন</h3>
+            <p class="text-xs text-gray-500 mb-4">আপনার সঠিক তথ্য দিয়ে নিচের ফর্মটি পূরণ করুন।</p>
+            
+            <form onsubmit="submitOrder(event)" class="space-y-4">
+                <!-- Color Selection -->
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-2">১. আপনার পছন্দের কালার বেছে নিন *</label>
+                    <div class="grid grid-cols-2 gap-2">
+                        <label class="flex items-center space-x-2 p-2.5 border border-gray-200 rounded-xl cursor-pointer hover:bg-gray-50">
+                            <input type="radio" name="color" value="বেবি পিংক" required class="text-orange-500">
+                            <span class="text-sm font-medium">বেবি পিংক</span>
+                        </label>
+                        <label class="flex items-center space-x-2 p-2.5 border border-gray-200 rounded-xl cursor-pointer hover:bg-gray-50">
+                            <input type="radio" name="color" value="ব্লু" class="text-orange-500">
+                            <span class="text-sm font-medium">ব্লু</span>
+                        </label>
+                        <label class="flex items-center space-x-2 p-2.5 border border-gray-200 rounded-xl cursor-pointer hover:bg-gray-50">
+                            <input type="radio" name="color" value="এশ" class="text-orange-500">
+                            <span class="text-sm font-medium">এশ</span>
+                        </label>
+                        <label class="flex items-center space-x-2 p-2.5 border border-gray-200 rounded-xl cursor-pointer hover:bg-gray-50">
+                            <input type="radio" name="color" value="অফ হোয়াইট" class="text-orange-500">
+                            <span class="text-sm font-medium">অফ হোয়াইট</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Delivery Location -->
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-2">২. ডেলিভারি এলাকা সিলেক্ট করুন *</label>
+                    <div class="grid grid-cols-2 gap-3">
+                        <label class="flex items-center justify-center p-3 border-2 border-gray-200 rounded-xl cursor-pointer text-center text-sm font-medium hover:border-orange-500 transition">
+                            <input type="radio" name="location" value="inside" onclick="setDelivery(70)" class="mr-2 text-orange-600" required>
+                            ঢাকার ভিতরে (৭০ ৳)
+                        </label>
+                        <label class="flex items-center justify-center p-3 border-2 border-gray-200 rounded-xl cursor-pointer text-center text-sm font-medium hover:border-orange-500 transition">
+                            <input type="radio" name="location" value="outside" onclick="setDelivery(130)" class="mr-2 text-orange-600">
+                            ঢাকার বাইরে (১৩০ ৳)
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Customer Details Inputs -->
+                <div class="space-y-3">
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-1">আপনার নাম *</label>
+                        <input type="text" id="custName" required placeholder="পুরো নাম লিখুন" class="w-full p-3 border-2 border-gray-200 rounded-xl text-sm focus:border-orange-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-1">মোবাইল নাম্বার *</label>
+                        <input type="tel" id="custPhone" required placeholder="০১XXXXXXXXX" class="w-full p-3 border-2 border-gray-200 rounded-xl text-sm focus:border-orange-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-1">সম্পূর্ণ ঠিকানা *</label>
+                        <textarea id="custAddress" required rows="2" placeholder="বাসা/রোড, থানা, জেলা" class="w-full p-3 border-2 border-gray-200 rounded-xl text-sm focus:border-orange-500 outline-none"></textarea>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-1">বিশেষ কোনো রিকোয়ারমেন্ট (যদি থাকে)</label>
+                        <input type="text" id="custNote" placeholder="যেমন: নির্দিষ্ট কোনো কালার কম্বিনেশন বা নির্দেশনা" class="w-full p-3 border-2 border-gray-200 rounded-xl text-sm focus:border-orange-500 outline-none">
+                    </div>
+                </div>
+
+                <!-- Bill Summary Box -->
+                <div class="bg-gray-50 border border-gray-200 p-4 rounded-2xl space-y-2 text-sm">
+                    <div class="flex justify-between">
+                        <span class="text-gray-600">পণ্যের দাম:</span>
+                        <span class="font-bold" id="summaryProductPrice">৮৯৯ ৳</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-600">ডেলিভারি চার্জ:</span>
+                        <span class="font-bold" id="summaryDeliveryFee">০ ৳</span>
+                    </div>
+                    <div class="border-t border-gray-200 pt-2 flex justify-between text-base font-bold text-orange-600">
+                        <span>মোট পেমেন্ট:</span>
+                        <span id="summaryTotalPrice">৮৯৯ ৳</span>
+                    </div>
+                </div>
+
+                <!-- Submit WhatsApp Button -->
+                <button type="submit" class="w-full accent-orange text-white font-bold py-4 rounded-2xl shadow-lg hover:opacity-90 active:scale-95 transition flex items-center justify-center space-x-2 text-base">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                    <span>হোয়াটসঅ্যাপে অর্ডার কনফার্ম করুন</span>
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <!-- JavaScript for Price Calculation & WhatsApp Order -->
+    <script>
+        let currentProductPrice = 899;
+        let currentDeliveryFee = 0;
+
+        function setPackage(qty, price) {
+            currentProductPrice = price;
+            if (qty === 4) {
+                currentDeliveryFee = 0;
+            } else {
+                const selectedLoc = document.querySelector('input[name="location"]:checked');
+                if (selectedLoc) {
+                    currentDeliveryFee = selectedLoc.value === 'inside' ? 70 : 130;
+                }
+            }
+            updateSummary();
+        }
+
+        function setDelivery(fee) {
+            const selectedPkg = document.querySelector('input[name="pkg"]:checked').value;
+            if (selectedPkg == 4) {
+                currentDeliveryFee = 0;
+            } else {
+                currentDeliveryFee = fee;
+            }
+            updateSummary();
+        }
+
+        function updateSummary() {
+            document.getElementById('summaryProductPrice').innerText = currentProductPrice + ' ৳';
+            document.getElementById('summaryDeliveryFee').innerText = currentDeliveryFee + ' ৳';
+            document.getElementById('summaryTotalPrice').innerText = (currentProductPrice + currentDeliveryFee) + ' ৳';
+        }
+
+        function submitOrder(event) {
+            event.preventDefault();
+            
+            const pkgElement = document.querySelector('input[name="pkg"]:checked');
+            let pkgText = "৪ পিস টাওয়েল";
+            if(pkgElement.value == "1") pkgText = "১ পিস টাওয়েল";
+            if(pkgElement.value == "2") pkgText = "২ পিস টাওয়েল";
+            if(pkgElement.value == "3") pkgText = "৩ পিস টাওয়েল";
+
+            const colorElement = document.querySelector('input[name="color"]:checked');
+            const colorText = colorElement ? colorElement.value : "বলা হয়নি";
+
+            const name = document.getElementById('custName').value;
+            const phone = document.getElementById('custPhone').value;
+            const address = document.getElementById('custAddress').value;
+            const note = document.getElementById('custNote').value;
+            const totalPrice = currentProductPrice + currentDeliveryFee;
+
+            const whatsappNumber = "+8801782056688"; // এখানে আপনার আসল হোয়াটসঅ্যাপ নম্বর বসাবেন
+
+            const message = `নতুন অর্ডার - Nesta Vibe:%0A` +
+                            `- প্যাকেজ: ${pkgText}%0A` +
+                            `- কালার: ${colorText}%0A` +
+                            `- পণ্যের দাম: ${currentProductPrice} ৳%0A` +
+                            `- ডেলিভারি চার্জ: ${currentDeliveryFee} ৳%0A` +
+                            `- মোট মূল্য: ${totalPrice} ৳%0A%0A` +
+                            `গ্রাহকের তথ্য:%0A` +
+                            `- নাম: ${name}%0A` +
+                            `- ফোন: ${phone}%0A` +
+                            `- ঠিকানা: ${address}%0A` +
+                            `- নোট: ${note}`;
+
+            window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
+        }
+    </script>
+</body>
+</html>
